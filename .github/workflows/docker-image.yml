@@ -21,6 +21,6 @@ jobs:
         run: echo ${{ steps.buildx.outputs.platforms }}
       - name: Build
         run: |
-          docker build \
+          docker buildx build \
             --tag eriksf/buildx-multiarch-example:$(date +%s) \
             --platform=linux/amd64,linux/ppc64le .
