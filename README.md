@@ -1,3 +1,3 @@
-# Multiarch Docker on CI
+# Multi-arch Docker buildx example on CI
 
 
