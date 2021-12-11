@@ -36,4 +36,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/ppc64le
           push: true
-          tags: eriksf/buildx-multiarch-example:$(date +%s)
+          tags: eriksf/buildx-multiarch-example:latest
